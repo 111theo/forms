@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application Form</title>
+
+    <style>
+        body{
+            background-color:#f5f5f5;
+            font-family: Arial;
+        }
+
+        fieldset{
+            border:2px solid #007bff;
+            width:400px;
+            padding:20px;
+            background:white;
+        }
+
+        legend{
+            font-weight:bold;
+            color:#007bff;
+        }
+
+        label{
+            display:block;
+            margin-top:10px;
+        }
+
+        input, select{
+            width:100%;
+            padding:5px;
+            margin-top:5px;
+        }
+
+        .buttons{
+            margin-top:15px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<h2>Job Application Form</h2>
+
+<form>
+
+<fieldset>
+
+<legend>Contact Information</legend>
+
+<label for="username">Username</label>
+<input type="text" id="username" name="username">
+
+<label for="email">Email</label>
+<input type="email" id="email" name="email">
+
+<label for="telephone">Telephone</label>
+<input type="text" id="telephone" name="telephone">
+
+</fieldset>
+
+<br>
+
+<fieldset>
+
+<legend>Job Positions</legend>
+
+<label>
+<input type="checkbox" name="position" value="Account Executive">
+Account Executive
+</label>
+
+<label>
+<input type="checkbox" name="position" value="Business Development">
+Business Development
+</label>
+
+<label>
+<input type="checkbox" name="position" value="Inside Sales">
+Inside Sales
+</label>
+
+<label>
+<input type="checkbox" name="position" value="Sales Manager">
+Sales Manager
+</label>
+
+<label>
+<input type="checkbox" name="position" value="VP Sales">
+VP Sales
+</label>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+
+<legend>Additional Information</legend>
+
+<label>Type of Position</label>
+<select name="positionType">
+<option>Full-Time</option>
+<option>Part-Time</option>
+<option>Internship</option>
+<option>Contract</option>
+</select>
+
+<br><br>
+
+<label>Willing to Relocate?</label>
+
+<label>
+<input type="radio" name="relocate" value="yes"> Yes
+</label>
+
+<label>
+<input type="radio" name="relocate" value="no"> No
+</label>
+
+</fieldset>
+
+<div class="buttons">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</div>
+
+</form>
+
+</body>
+</html>
