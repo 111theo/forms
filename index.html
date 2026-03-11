@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Job Application Form</title>
+
+<link rel="stylesheet" href="styles.css">
+<script defer src="script.js"></script>
+
+</head>
+
+<body>
+
+<h2>Job Application Form</h2>
+
+<form id="jobForm">
+
+<fieldset>
+
+<legend>Contact Information</legend>
+
+<label>Username</label>
+<input type="text" id="username" required>
+
+<label>Email</label>
+<input type="email" id="email" required>
+
+<label>Telephone</label>
+<input type="tel" id="telephone" required>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+
+<legend>Job Positions</legend>
+
+<label><input type="checkbox"> Account Executive</label>
+<label><input type="checkbox"> Business Development</label>
+<label><input type="checkbox"> Inside Sales</label>
+<label><input type="checkbox"> Sales Manager</label>
+<label><input type="checkbox"> VP Sales</label>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+
+<legend>Additional Information</legend>
+
+<label>Type of Position</label>
+<select>
+<option>Full-Time</option>
+<option>Part-Time</option>
+<option>Internship</option>
+<option>Contract</option>
+</select>
+
+<br><br>
+
+<label>Willing to Relocate?</label>
+
+<label><input type="radio" name="relocate"> Yes</label>
+<label><input type="radio" name="relocate"> No</label>
+
+</fieldset>
+
+<div class="buttons">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</div>
+
+</form>
+
+</body>
+</html>
+
